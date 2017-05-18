@@ -1,11 +1,11 @@
 import React from 'react';
-import { Platform, StatusBar } from 'react-native';
+import { StatusBar } from 'react-native';
 
-const TopStatusBar = () => (
+const TopStatusBar = ({ bgColor, barStyle, hidden }) => (
   <StatusBar
-    backgroundColor="white"
-    barStyle="light-content"
-    hidden={Platform.OS === 'android'}
+    backgroundColor={bgColor}
+    barStyle={barStyle}
+    hidden={hidden}
   />
 );
 

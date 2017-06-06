@@ -11,8 +11,8 @@
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
     "eslint-plugin-react-native": "^2.0.0",
-    "jest-expo": "^0.4.0",
-    "react-native-scripts": "0.0.29",
+    "jest-expo": "~1.0.1",
+    "react-native-scripts": "0.0.30",
     "react-test-renderer": "16.0.0-alpha.6"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
@@ -27,12 +27,13 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^16.0.0",
-    "native-base": "^2.1.3",
+    "expo": "^17.0.0",
+    "native-base": "^2.1.4",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.43.4",
+    "react-native": "^0.44.0",
+    "react-native-easy-grid": "^0.1.13",
     "react-native-elements": "^0.12.2",
     "react-native-keyboard-aware-scroll-view": "^0.2.9",
-    "react-navigation": "^1.0.0-beta.9"
+    "react-navigation": "^1.0.0-beta.11"
   }
 }

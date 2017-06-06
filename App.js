@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import Router from './app/router'
+import Router from './src/core/auth/router';
 
 const App = () => (
   <Router />

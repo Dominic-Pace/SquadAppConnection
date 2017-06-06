@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Router from './src/core/auth/router';
+import Store from './src';
 
 const App = () => (
-  <Router />
+  <Store />
 );
 
 export default App;

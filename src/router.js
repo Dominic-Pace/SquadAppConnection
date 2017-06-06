@@ -8,6 +8,8 @@ const Router = StackNavigator({
   Auth: {
     screen: Auth,
   }
+}, {
+  headerMode: 'none'
 });
 
 export default Router;

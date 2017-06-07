@@ -16,7 +16,6 @@ export const authenticate = (email, password) => {
     dispatch({ type: AUTH_REQUEST })
     return axios.post(authConfiguration.url, authConfiguration.auth)
       .then(res => {
-        console.log('res', res.data)
         dispatch({ type: AUTH_SUCCESS, authToken: res.data.data.token, currentUser: res.data.data.user })
       })
       .catch(err => {
